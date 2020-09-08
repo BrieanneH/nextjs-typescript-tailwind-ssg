@@ -4,7 +4,7 @@ import { CLIENT_NAME } from 'lib/constants';
 const Index = () => {
 	return (
 		<Fragment>
-			<div className=' text-custom text-black block mx-auto'>
+			<div className='text-custom text-black block mx-auto font-head'>
 				Welcome to {CLIENT_NAME}&apos;s portfolio
 			</div>
 		</Fragment>
