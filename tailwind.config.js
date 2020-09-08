@@ -1,5 +1,5 @@
 module.exports = {
-	purge: [],
+	purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
 	target: 'relaxed',
 	prefix: '',
 	important: false,
@@ -1069,5 +1069,8 @@ module.exports = {
 		animation: ['responsive']
 	},
 	corePlugins: {},
-	plugins: []
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('tailwindcss-textshadow')
+	]
 };
