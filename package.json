@@ -1,0 +1,8 @@
+{
+  "name": "nextjs-typescript-tailwind-ssg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BrieanneH/nextjs-typescript-tailwind-ssg.git",
+  "author": "BrieanneH <howard.brieanne@gmail.com>",
+  "license": "MIT"
+}
